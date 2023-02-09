@@ -39,8 +39,23 @@ Print the long file and hidden file of current working directory and parent work
 print the type of file that is the above directory/file
 
 
-#ln -s /bin/_ls_
+#ln -s /bin/__ls__
 Attempt to link the current working directory with the latter directory
 
 #cp -i *.html ../
 uses the wildcat to copy all html files in the cuurent directory to the parent directory
+
+#mv [:upper:]* /tmp/u
+Move all file starting with uppercase into the dest /tmp/u
+
+#rm -r *~
+Remove all files ending with ~
+
+#mkdir -p
+Creates subdirectory and parent directory if it dont exist
+
+#ls -amvp
+List all files in current directory, seperating them by comma
+
+#!:mime School
+Not sure
