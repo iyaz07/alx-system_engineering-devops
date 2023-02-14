@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%i/n"(($TRUEKNOWLEDGE + 128))
+echo $(($TRUEKNOWLEDGE + 128))
